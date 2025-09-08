@@ -86,7 +86,7 @@ Run services manually:
 The application will be available at:
 - **Frontend**: http://localhost:8000
 - **API**: http://localhost:8000/api
-
+m
 
 ## API Documentation
 
@@ -169,6 +169,20 @@ The application supports two user roles:
 
 - **User**: Can create, edit, and delete their own posts and comments
 - **Admin**: Can manage all posts, comments, and users; can force delete content
+
+##  Docker
+
+# Start the application
+- docker-compose up --build
+
+# Start in background
+- docker-compose up -d
+
+# Stop the application
+- docker-compose down
+
+# View logs
+- docker-compose logs -f
 
 ##  Project Structure
 
